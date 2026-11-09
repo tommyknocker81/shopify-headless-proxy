@@ -1,0 +1,20 @@
+{
+  "name": "shopify-headless-proxy",
+  "version": "1.0.0",
+  "description": "Self-hosted Shopify proxy for headless storefronts: analytics (/_cks) and the Shopify Inbox chat (/inbox). One-click deploy on Cloudflare Workers",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4.7.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.0.0",
+    "typescript": "^5.8.2",
+    "wrangler": "^4.0.0"
+  }
+}

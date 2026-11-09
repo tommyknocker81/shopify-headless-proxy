@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developers.cloudflare.com/workers/wrangler/configuration/",
+  "name": "shopify-headless-proxy",
+  "main": "src/index.ts",
+  "workers_dev": true,
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "STOREFRONT_API_VERSION": "2026-10",
+    "ALLOWED_ORIGIN": "*",
+    "SHOP": "hormonelle"
+  }
+}
